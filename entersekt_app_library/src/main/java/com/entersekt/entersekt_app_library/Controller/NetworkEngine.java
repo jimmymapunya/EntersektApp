@@ -16,12 +16,12 @@ import java.util.Map;
 public class NetworkEngine {
 
     //Api URL
-    private static final String WeatherURL = "http://www.mocky.io/v2/5b7e8bc03000005c0084c210";
+    private static final String URL = "http://www.mocky.io/v2/5b7e8bc03000005c0084c210";
 
     public static void EntersektAppAPICall (Context context, final INetworkResponseListener iNetworkResponseListener){
 
 
-        final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, WeatherURL,null,
+        final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, URL,null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
