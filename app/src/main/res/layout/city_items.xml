@@ -20,7 +20,7 @@
 
         <TextView
             style="@style/list_item_microtext_group"
-            android:text="Number of Malls: 9" />
+            android:text="Number of Malls: 2" />
     </LinearLayout>
 
     <LinearLayout
