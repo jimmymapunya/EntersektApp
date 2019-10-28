@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_item_horizontal"
+    android:padding="10dp"
+    android:background="@drawable/list_button_selector">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCity"
+            style="@style/list_item_subtext"
+            android:text="Cape Town"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/list_item_microtext_group"
+            android:text="Number of Malls: 9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnShops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:focusable="false"
+            android:text="Shops" />
+
+    </LinearLayout>
+</LinearLayout>
